@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_marginTop="180dp"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_question"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:hint="Enter Question"
+        android:paddingLeft="15sp" />
+
+    <EditText
+        android:id="@+id/et_answer"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:hint="Enter Answer"
+        android:paddingLeft="15sp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btn_save_flashcard"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textSize="15sp"
+        android:text="Save Flashcard" />
+</LinearLayout>
